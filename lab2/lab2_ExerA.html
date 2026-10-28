@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+    <title>Hackathon</title>
+</head>
+<body>
+
+    <header>
+        <h1>Hackathon</h1>
+        <strong><em>"Ideas in Action"</em></strong>
+    </header>
+
+    <nav>
+        <a href="#schedule">Schedule</a> | <a href="#register">Register</a> |
+        <a href="#about">About</a>
+    </nav>
+
+    <!--Event table for details about event-->
+    <section id="about">
+            <h2>Information about event</h2>
+
+            <table border="1">
+                <tr>
+                    <th>Time</th>
+                    <th>Activity</th>
+                    <th>Venues</th>
+                    <th>Person in charge</th>
+                </tr>
+
+                <tr>
+                    <td>9.00am-10.00am</td>
+                    <td>Code Quest</td>
+                    <td>BS1</td>
+                    <td>Sarimah</td>
+                </tr>
+
+                <tr>
+                    <td>10.00am-11.00am</td>
+                    <td>Hack the Future</td>
+                    <td>BYOD1</td>
+                    <td>Hannah</td>
+                </tr>
+
+                <tr>
+                    <td>11.00am-12.00pm</td>
+                    <td>Tech Tinkerers</td>
+                    <td rowspan="2">BK2</td>
+                    <td rowspan="2">Ahmad</td>
+                </tr>
+
+                <tr>
+                    <td>12.00pm-1.00pm</td>
+                    <td>Techno Wizards</td>
+                </tr>                
+     
+                <tr>
+                <td colspan="4">Lunch Break</td>
+                </tr>
+
+                <tr>
+                    <td>2.30pm-4.00pm</td>
+                    <td>Hacktopia</td>
+                    <td>BYOD1</td>
+                    <td>Hannis</td>
+                </tr>                
+
+            </table>
+    </section>
+
+    <section>
+            <h2>Registration Form</h2>
+            <form action="register.html" method="post"></form>
+                <label for="name"> Full Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+
+                <label for="text">Matric Number:</label><br>
+                <input type="text" id="text" name="text"><br>
+
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label>Year:</label><br>
+                <input type="radio" id="first" name="year" value="first">
+                <label for="first">Year1</label><br>
+
+                <input type="radio" id="second" name="year" value="second">
+                <label for="second">Year2</label><br>
+
+                <input type="radio" id="third" name="year" value="third">
+                <label for="third">Year3</label><br>               
+
+                <input type="radio" id="four" name="year" value="four">
+                <label for="four">Year4</label><br><br>
+
+
+            <label>Select session:</label><br>
+            <input type="checkbox" id="session1" name="session1" value="session1">
+            <label for="session1">Session 1</label>
+
+            <input type="checkbox" id="session2" name="session2" value="session2">
+            <label for="session2">Session 2</label>
+
+            <input type="checkbox" id="session3" name="session3" value="session3">
+            <label for="session3">Session 3</label><br><br>
+            
+            <label for="faculty">Select Faculty:</label>
+            <select id="faculty" name="faculty">
+                <option value="faculty1">Faculty of Computer Science</option>
+                <option value="faculty2">Faculty of Education</option>
+                <option value="faculty3">Faculty of Accounting</option>
+                <option value="faculty4">Faculty of Engineering</option>
+            </select><br><br>
+
+    </section>
+
+    <footer>
+        <p>Copyright © 2026 Hackathon</p>
+    </footer>
+
+</body>
+</html>
