@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culculator</title>
+</head>
+<body>
+<hr>
+    <div id="header">
+        <h1>Inline calculator</h1>
+<span>This website perfome inline calculator</span>
+    </div>
+
+    <hr>
+    <div id="content">
+        <form>
+            E-mail:<input type="email" name="useremail"><br>
+        <br>
+        Tarikh: <input type="date" name = "tarikh"><br>
+        <br>
+        Satisfaction level<input type="Range" name="satisfaction" min="1" max="10"><br>
+        <input type="submit" value="Submit"><br><br>
+    </form>
+    </div>
+
+    <div id="calculator">
+        <form oninput="result.value=parseInt(number1.value)+parseInt(number2.value)">
+            <br><input id="number1" type ="text" value ="0">+
+            <input id="number2" type ="text" value ="0">=
+            <output name="result" for="number1 number2"></output>
+        </form>
+        </div>
+
+
+<div id="footer">
+    <br><h2> Contact information</h2>
+    <p> Email: <a href="mailto:information:info@Calt.com">info@Calt.com</a></p>
+    <p>&copy; Calculator &amp; Inline</p>
+
+</div>
+</body>
+</html>
