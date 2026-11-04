@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusBakery</title>
+</head>
+<body>
+<hr>
+    <div id="header">
+        <h1>Campus Bakery</h1>
+        <!--Tagline-->
+<span><strong>Campus bakery</strong><em>  Baking with heart</em></span>
+    </div>
+
+    <!--Sidebar price list-->
+    <div id="sidebar">
+        <h2>Price list:</h2>
+        <ul>
+            <li>Egg Tart = RM3</li>
+            <li>Macaron = RM5</li>
+            <li>Spaggeti = RM14</li>
+            <li>Cupcake = RM3 each</li>
+            <li>Cake Slice = RM5 each</li>
+        </ul>
+
+    </div>
+
+
+    <hr>
+    <div id="content">
+        <form>
+        Name: <input type="text" name="nama"><br>
+        <br>
+        Number phone:<input type="text" name="number"><br>
+        <br>
+        Pick-up date: <input type="date" name = "tarikh"><br>
+        <br>
+        Flavour: <datalist id="flavour">
+            <option value="Vanilla"></option>
+            <option value="Coklat"></option>
+            <option value="Strawbery"></option>
+            <option value="Orange"></option>
+        </datalist>
+        <input list="flavour" name="flavour"><br><br>
+        Icing colour:<input type="color" name="color"><br><br>
+        Sweetness level<input type="Range" name="sweetness" min="1" max="5" step="1"><br>
+    
+        <br><input type="submit" value="Submit"><br><br>
+    </form>
+    </div>
+
+    <!--Calculation for cupcake and cake slice-->
+    <form oninput="cake.value=parseInt(cupcake.value*3)+parseInt(cakeslice.value*5)">
+    <input id="cupcake" type="number" min="0" value="0"> cupcake +
+    <input id="cakeslice" type ="number" value ="0"> cake slice = RM
+    <output name="cake" for="cupcake cakeslice"></output>
+</form>
+
+<div id="footer">
+    <br><h3>Order Macaron &gt; 10 pieces get a free drink</h3>
+    <br><h4>Contact us <em>CampusBakery&reg;</em></h4>
+    <p> Email: <a href="mailto:information:Bakery@campus.com">Baker@campus.com</a></p>
+    <p>&copy; Campus Bakery</p>
+
+</div>
+</body>
+</html>
