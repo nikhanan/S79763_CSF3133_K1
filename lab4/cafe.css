@@ -1,0 +1,69 @@
+/* Navigation Bar */
+nav{
+    background-color:#1A5276;
+}
+nav ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+nav li{
+    display:inline-block;
+}
+nav a{
+    display:block;
+    padding:15px 20px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+/* Link States */
+a:link{
+    color:white;
+}
+a:visited{
+    color:#D7BDE2;
+}
+a:hover{
+    color:white;
+    background-color:#E67E22;
+}
+a:active{
+    color:#C0392B;
+}
+/* Menu Items */
+.item{
+    border:1px solid #cccccc;
+    padding:15px;
+    margin-bottom:15px;
+}
+/* Old Promotion Price */
+.old-price{
+    text-decoration:line-through;
+    color:gray;
+}
+/* Responsive Video */
+video{
+    max-width:100%;
+    height:auto;
+}
+/* Feedback Form */
+.feedback-form{
+    background-color:#FDEBD0;
+    padding:20px;
+    border:1px solid #cccccc;
+    width:90%;
+}
+.feedback-form input[type="text"],
+.feedback-form input[type="email"]{
+    width:100%;
+    padding:10px;
+    margin-bottom:10px;
+}
+/* Footer */
+footer{
+    background-color:#1A5276;
+    color:white;
+    text-align:center;
+    padding:15px;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-Café Campus</title>
+    <link rel="stylesheet" href="cafe.css">
+    <style>
+        /* Internal CSS */
+        h1{
+            text-decoration: overline;
+        }
+        p{
+            color: #333333;
+            text-align: justify;
+        }
+        .intro{
+            font-size: 18px;
+            background-color: #FDEBD0;
+            padding: 10px;
+        }
+        .highlight{
+            font-weight: bold;
+            color: #C0392B;
+        }
+    </style>
+</head>
+<body>
+<!--
+Error 1 (Line 9): list-style-type:no changed to none
+Error 2 (Line 15): a:visited placed before a:hover
+Error 3 (Line 17): overlined changed to overline
+Error 4 (Line 18): missing colon after color
+Error 5 (Line 22): highlight changed to .highlight
+Error 6 (Line 22): CSS block not closed properly
+Error 7 (Line 34): href="menu" changed to href="#menu"
+Error 8 (Line 41): class intro corrected
+Error 9 (Line 54): type="mp4" changed to type="video/mp4"
+Error 10 (Line 46): duplicate id replaced with class
+-->
+<header>
+    <h1>e-Café Campus</h1>
+</header>
+<!-- Navigation Section -->
+<nav>
+    <ul>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+<!-- Menu Section -->
+<section id="menu">
+    <h2>Today's Menu</h2>
+    <p class="intro">
+        Freshly brewed coffee and local delights every day.
+    </p>
+    <article class="item">
+        <h3>Kopi Tarik</h3>
+        <p>
+            <span class="old-price">RM4.50</span>
+            <span class="highlight">RM3.50</span>
+        </p>
+    </article>
+    <article class="item">
+        <h3>Nasi Lemak</h3>
+        <p>
+            <span class="old-price">RM6.50</span>
+            <span class="highlight">RM5.00</span>
+        </p>
+    </article>
+</section>
+<!-- Video Section -->
+<section id="video">
+    <h2>Watch Our Story</h2>
+    <figure>
+        <video width="500" controls>
+            <source src="cafe.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <figcaption>
+            Figure 1: Welcome to e-Café Campus.
+        </figcaption>
+    </figure>
+</section>
+<!-- Feedback Form -->
+<section id="feedback">
+    <h2>Customer Feedback</h2>
+    <form class="feedback-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" required>
+        <h3>Visit Type</h3>
+        <label>
+            <input type="radio" name="visit">
+            Dine-in
+        </label>
+        <label>
+            <input type="radio" name="visit">
+            Take-away
+        </label>
+        <h3>Favourite Items</h3>
+        <label>
+            <input type="checkbox">
+            Kopi Tarik
+        </label>
+        <label>
+            <input type="checkbox">
+            Nasi Lemak
+        </label>
+        <label>
+            <input type="checkbox">
+            Teh Tarik
+        </label>
+        <input type="submit" value="Submit">
+    </form>
+</section>
+<!-- Footer -->
+<footer id="contact">
+    <p>&copy; 2026 e-Café Campus</p>
+    <address>
+        Email:
+        <a href="mailto:s79763@student.umt.edu.my">
+            s79763@student.umt.edu.my
+        </a>
+    </address>
+</footer>
+</body>
+</html>
