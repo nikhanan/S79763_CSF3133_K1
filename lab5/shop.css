@@ -1,0 +1,56 @@
+/*
+Error 1 (line 4) : background-repeat no is not a background-repeat
+Error 2 (line 5) : Property bacground-position doesn't exist. The closest matching property name is background-position : right top
+Error 3 (line 23): Unknown pseudo-element or pseudo-class :a
+Error 4 (line 27): collapsed is not a border-collapse value : collapsed
+Error 5 (line 37): Unknown pseudo-element or pseudo-class :hovered
+Error 6 (line 46): background-color Missing a semicolon before the property name text-align
+*/
+body { 
+    font-family: 'Robotto', sans-serif; 
+    background-image: url("paper.gif"); 
+    background-repeat: no-repeat; 
+    background-position: right top;  
+} 
+ul { 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden; 
+    background-color: #333; 
+} 
+li { 
+    float: left; 
+} 
+li a { 
+    display: inline; 
+    color: white; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+} 
+li a:hover { 
+    background-color: #111; 
+} 
+#products {     
+    border-collapse:collapse;
+    width: 100%; 
+} 
+#products td, #products th { 
+    border: 1px solid #ddd; 
+    padding: 8px; 
+} 
+#products tr:nth-child(2) { 
+    background-color: #f2f2f2; 
+} 
+#products tr:hover { 
+    background-color: #ddd; 
+} 
+#products th { 
+    background-color: #04AA6D; 
+    color: white; 
+} 
+footer { 
+    background-color: #f1f1f1;
+    text-align: center; 
+    padding: 10px; 
+}
