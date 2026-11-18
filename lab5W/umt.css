@@ -1,0 +1,93 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f8fb;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-*olor: #005b96;
+    color: white*
+    text-align: center;
+    paddi*g: 30*x;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color* #003f6*;
+    text-align: center;
+    padd*ng: 15px;
+}
+
+nav a {
+    color: wh*te;
+    text-decoration: none*
+    margin: 0 20px;
+    font-weig*t: bold*
+}
+
+nav a:hover {
+    color: #*fd700;
+}
+
+/* Main Content */
+main {
+    padding: *0px;
+}
+
+section {
+    background-c*lor* white;
+    padding: 20px;
+    mar*in-bottom: *0px;
+    border-radius: 8px;
+}
+
+/* Paragraph */
+p {
+    text-align: justify;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    bor*er-collapse: collapse;
+    margin-*op: *5px;
+}
+
+table, th, td {
+   *border: 1px solid #cccccc;
+}
+
+th {**   background-color: #005b96;
+    *olor: white;
+   *padding: 12px;
+}
+
+td {
+    padding* 10px;
+    text-align: center;
+}
+
+*r:nth-child*even) {
+    background-color: #f2f**2;
+}
+
+tr:hover {
+    background-co*or: #dfefff;
+}
+
+/* Footer */
+footer {
+    background-color: #*03f6b;
+    color: white;
+    text*align: center;
+    padding: 15px;
+*
