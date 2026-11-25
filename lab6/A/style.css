@@ -1,0 +1,53 @@
+/* Page Design */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: royalblue;
+    color: white;
+    padding: 15px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    background-color: #0077ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+/* Images */
+img {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+}
+
+/* Table */
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    background-color: lightgray;
+}
+
+th, td {
+    padding: 10px;
+}

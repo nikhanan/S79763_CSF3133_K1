@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Grade Calculator</title>
+
+    <!-- Link CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- 
+    ERROR LIST
+    
+    Error 1 (Line 9): onsubmit="checkMark()"
+    Corrected to: onsubmit="return checkMark()"
+
+    Error 2 (Line 17): showtable() 
+    Corrected to: showTable()
+
+    New Feature Added:
+    - Random Mark button
+    - Date and Time display
+    - External CSS file linked
+    -->
+
+    <h2>Student Grade Calculator</h2>
+
+    <!-- Student Form -->
+    <form name="gradeForm" onsubmit="return checkMark()">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+
+        <label for="mark">Mark (0-100):</label>
+        <input type="text" id="mark" name="mark">
+        <br><br>
+
+        <button type="submit">Check Grade</button>
+
+        <button type="button" onclick="randomMark()">
+            Random Mark
+        </button>
+
+    </form>
+
+    <!-- Result -->
+    <p id="result"></p>
+
+    <!-- Date and Time -->
+    <p id="dateTime"></p>
+
+    <!-- Display Table Button -->
+    <button type="button" onclick="showTable()">
+        Show Grade Table
+    </button>
+
+    <!-- Grade Table Container -->
+    <div id="tableContainer"></div>
+
+    <!-- Link JavaScript File -->
+    <script src="grade.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+/*
+Additional Features Added
+
+1. Button hover effect
+2. Table border styling
+3. Padding and spacing
+4. Background color
+5. Result formatting
+
+Created to fulfill Part 2 Requirement 9.
+*/
+
+/* Page Style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Title */
+h2 {
+    color: #333;
+}
+
+/* Input Fields */
+input {
+    padding: 8px;
+    width: 200px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+/* Hover Effect */
+button:hover {
+    background-color: darkblue;
+}
+
+/* Result */
+#result {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Table */
+table {
+    border-collapse: collapse;
+    margin-top: 15px;
+    width: 300px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th {
+    background-color: lightblue;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
